@@ -5,7 +5,7 @@ function CityInfo(props) {
   console.log(props);
   return (
     <div>
-      <div>Message: {props.info.message}</div>
+      <div className="text-black font-bold">Message: {props.info.message}</div>
     </div>
   );
 }

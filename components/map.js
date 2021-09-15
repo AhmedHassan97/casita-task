@@ -15,7 +15,7 @@ const Map = (props) => {
   const [viewport, setViewport] = useState({
     latitude: 40.78343,
     longitude: -73.96625,
-    zoom: 5,
+    zoom: 2,
   });
   const geolocateStyle = {
     latitude: 40,
