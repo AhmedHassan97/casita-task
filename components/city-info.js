@@ -1,3 +1,5 @@
+import React from "react";
+
 function CityInfo(props) {
   // const displayName = `${info.city}, ${info.state}`;
   console.log(props);

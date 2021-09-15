@@ -1,10 +1,12 @@
-import { useState, useEffect, Fragment } from "react";
+import { useState } from "react";
 import Map from "../components/map";
 import { MongoClient } from "mongodb";
 import axios from "axios";
 import Fuse from "fuse.js";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import { Menu, Transition } from "@headlessui/react";
+import React from "react";
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }

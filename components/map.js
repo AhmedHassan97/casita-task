@@ -9,6 +9,7 @@ import ReactMapGL, {
 import Pins from "./pins";
 import CityInfo from "./city-info";
 import "mapbox-gl/dist/mapbox-gl.css";
+import React from "react";
 
 const Map = (props) => {
   const [viewport, setViewport] = useState({
